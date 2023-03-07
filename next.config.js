@@ -1,15 +1,18 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  webpack: config => {
+  images: {
+    unoptimized: true,
+  },
+  webpack: (config) => {
     config.module.rules.push({
       test: /\.woff2$/,
-      type: "asset/resource"
+      type: "asset/resource",
     });
     return config;
   },
   //This option requires Next 13.1 or newer, if you can't update you can use this plugin instead: https://github.com/martpie/next-transpile-modules
-  transpilePackages: ["@codegouvfr/react-dsfr"]
-}
+  transpilePackages: ["@codegouvfr/react-dsfr"],
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
