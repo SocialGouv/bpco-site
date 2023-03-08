@@ -90,11 +90,15 @@ export default function Home() {
           <ul className="tiles">
             <li>
               <CallOut title="3,5 millions">
-                De patients atteints de BPCO en France
+                de patients atteints de BPCO (soit 8% de la population
+                française)
               </CallOut>
             </li>
             <li>
-              <CallOut title="3eme">Cause de mortalité dans le monde</CallOut>
+              <CallOut title="3eme">
+                cause de mortalité dans le monde (env. 18 000 morts/an en
+                France)
+              </CallOut>
             </li>
             <li>
               <CallOut title="700 millions">
@@ -114,7 +118,7 @@ export default function Home() {
             }}
           >
             <p>
-              Les exacerbations (aggravations aigues) de BPCO sont responsables
+              Les exacerbations (aggravations aigües) de BPCO sont responsables
               de +150 000 hospitalisations par an en France. A chaque
               exacerbation, la fonction respiratoire se dégrade et ce,
               d&apos;autant plus vite que la maladie est déjà en stade avancée.

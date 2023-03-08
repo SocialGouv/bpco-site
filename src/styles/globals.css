@@ -76,3 +76,7 @@ ul.tiles li {
 .store-links a[target=_blank]::after {
   display: none;
 }
+
+.fr-header__tools-links .fr-btn {
+  color: var(--text-default-info);
+}

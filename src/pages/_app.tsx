@@ -59,7 +59,7 @@ function App({ Component, pageProps }: AppProps) {
         brandTop={brandTop}
         serviceTitle="BPCO'Mieux"
         homeLinkProps={homeLinkProps}
-        serviceTagline="L'application mobile pour les patients BPCO qui veulent suivre leurs signes cliniques respiratoires"
+        serviceTagline="La solution numérique de suivi quotidien des signes cliniques respiratoires des patients BPCO"
         operatorLogo={{
           alt: "logo BPCO",
           imgUrl: "bpco.png",
