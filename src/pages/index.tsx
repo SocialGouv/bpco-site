@@ -1,13 +1,11 @@
 import Head from "next/head";
-// import Image from 'next/image'
-// import { Inter } from 'next/font/google'
-// import styles from "@/styles/Home.module.css";
 import Image from "next/image";
+import { Card } from "@codegouvfr/react-dsfr/Card";
 import { CallOut } from "@codegouvfr/react-dsfr/CallOut";
 
-// const inter = Inter({ subsets: ['latin'] })
-
 import jumboPic from "../../public/jumbo.png";
+import appStorePic from "../../public/app-store.png";
+import googlePlayPic from "../../public/google-play.png";
 
 export default function Home() {
   return (
@@ -21,7 +19,13 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <>
-        <section className="fr-container" style={{ backgroundColor: "xpink" }}>
+        <section className="fr-container" style={{ position: "relative" }}>
+          <h1>BPCO&apos;MIEUX</h1>
+          <p className="text-lead">
+            L&apos;application mobile pour les patients BPCO (BronchoPathie
+            Chronique Obstructive) <br /> qui veulent suivre leurs signes
+            cliniques respiratoires
+          </p>
           <div
             style={{
               display: "flex",
@@ -29,48 +33,32 @@ export default function Home() {
               alignItems: "stretch",
             }}
           >
-            <div style={{ flex: 2, backgroundColor: "azurex" }}>
-              <h1>BPCO&apos;MIEUX</h1>
-              <h2>
-                L&apos;application mobile pour les patients BPCO qui veulent
-                suivre leurs signes cliniques respiratoires
-              </h2>
-              <ul>
-                <li>
-                  <div>
-                    100% gratuit, 100% anonyme et sans création de compte
-                  </div>
-                  <p>
-                    Si vous souhaitez supprimer toutes vos données d&apos;un
-                    coup, il vous suffit de désinstaller l&apos;application
-                  </p>
-                </li>
-                <li>
-                  <div>Sécurité des données</div>
-                  <p>Je reste propriétaire des données saisies</p>
-                </li>
-                <li>
-                  <div>Simple, rapide et intuitive</div>
-                  <p>
-                    En quelques secondes par jour, je remplis mon questionnaire
-                    de suivi
-                  </p>
-                </li>
-              </ul>
-            </div>
-            <div
-              style={{
-                flex: 1,
-                minHeight: "100px",
-                position: "relative",
-                backgroundColor: "tomato",
-              }}
-            >
+            <ul className="jumbo-list">
+              <li>
+                <div>100% gratuit, 100% anonyme et sans création de compte</div>
+                <p>
+                  Si vous souhaitez supprimer toutes vos données d&apos;un coup,
+                  il vous suffit de désinstaller l&apos;application
+                </p>
+              </li>
+              <li>
+                <div>Sécurité des données</div>
+                <p>Je reste propriétaire des données saisies</p>
+              </li>
+              <li>
+                <div>Simple, rapide et intuitive</div>
+                <p>
+                  En quelques secondes par jour, je remplis mon questionnaire de
+                  suivi
+                </p>
+              </li>
+            </ul>
+            <div className="jumbo-image">
               <Image
                 fill
                 priority
                 src={jumboPic}
-                style={{ objectFit: "cover" }}
+                style={{ objectFit: "contain" }}
                 alt="Illustration de la page d'accueil"
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               />
@@ -78,18 +66,37 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="fr-container" style={{ backgroundColor: "xlime" }}>
+        <section className="fr-container store-links">
+          <a target="_blank" href="#">
+            <Image
+              priority
+              width={250}
+              src={appStorePic}
+              alt="Image du lien vers l'App Store"
+            />
+          </a>
+          <a target="_blank" href="#">
+            <Image
+              priority
+              width={250}
+              src={googlePlayPic}
+              alt="Image du lien vers le Google Play Store"
+            />
+          </a>
+        </section>
+
+        <section className="fr-container">
           <h2>La BPCO : un problème de santé publique</h2>
-          <ul style={{ display: "flex", gap: "2rem" }}>
-            <li style={{ flex: 1 }}>
+          <ul className="tiles">
+            <li>
               <CallOut title="3,5 millions">
                 De patients atteints de BPCO en France
               </CallOut>
             </li>
-            <li style={{ flex: 1 }}>
+            <li>
               <CallOut title="3eme">Cause de mortalité dans le monde</CallOut>
             </li>
-            <li style={{ flex: 1 }}>
+            <li>
               <CallOut title="700 millions">
                 Le coût annuel des dépenses de santé en hospitalisations
               </CallOut>
@@ -97,11 +104,8 @@ export default function Home() {
           </ul>
         </section>
 
-        <section
-          className="fr-container"
-          style={{ backgroundColor: "xskyblue" }}
-        >
-          <h3>BPCO&apos;Mieux, pourquoi l&apos;utiliser ?</h3>
+        <section className="fr-container">
+          <h2>BPCO&apos;Mieux, pourquoi l&apos;utiliser ?</h2>
           <div
             style={{
               gap: "0.8rem",
@@ -128,11 +132,8 @@ export default function Home() {
           </div>
         </section>
 
-        <section
-          className="fr-container"
-          style={{ backgroundColor: "xsalmon" }}
-        >
-          <h3>BPCO&apos;Mieux, comment ça marche ?</h3>
+        <section className="fr-container">
+          <h2>BPCO&apos;Mieux, comment ça marche ?</h2>
           <div
             style={{
               gap: "0.8rem",
@@ -152,6 +153,24 @@ export default function Home() {
               une orientation afin de vous accompagner dans votre décision.
             </p>
           </div>
+        </section>
+        <section className="fr-container">
+          <Card
+            horizontal
+            size="large"
+            enlargeLink={false}
+            title="Nous contacter"
+            linkProps={{ href: "#nous-contacter", id: "nous-contacter" }}
+            desc="Envoyez-nous un mail à bpcomieux@fabrique.social.gouv.fr"
+            footer={
+              <a
+                href="mailto:bpcomieux@fabrique.social.gouv.fr"
+                className="fr-btn fr-btn--primary"
+              >
+                Envoyer un mail
+              </a>
+            }
+          />
         </section>
       </>
     </>

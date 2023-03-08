@@ -40,7 +40,7 @@ export { dsfrDocumentApi };
 function App({ Component, pageProps }: AppProps) {
   const brandTop = (
     <>
-      MINISÈRES
+      MINISTÈRES
       <br />
       SOCIAUX
     </>
@@ -69,7 +69,7 @@ function App({ Component, pageProps }: AppProps) {
           {
             iconId: "ri-customer-service-2-line",
             linkProps: {
-              href: "#",
+              href: "#nous-contacter",
             },
             text: "Nous contacter",
           },
@@ -85,11 +85,11 @@ function App({ Component, pageProps }: AppProps) {
       <main
         style={{
           flex: 1,
-          gap: "6rem",
+          gap: "4rem",
           margin: "auto",
           display: "flex",
           flexDirection: "column",
-          ...fr.spacing("padding", { topBottom: "24v", rightLeft: "10v" }),
+          ...fr.spacing("padding", { topBottom: "16v", rightLeft: "10v" }),
         }}
       >
         <Component {...pageProps} />
