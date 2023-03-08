@@ -67,7 +67,7 @@ export default function Home() {
         </section>
 
         <section className="fr-container store-links">
-          <a target="_blank" href="#">
+          <a target="_blank" href="#" id="download">
             <Image
               priority
               width={250}

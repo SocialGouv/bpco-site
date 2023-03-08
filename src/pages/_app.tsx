@@ -76,7 +76,7 @@ function App({ Component, pageProps }: AppProps) {
           {
             iconId: "ri-download-cloud-line",
             linkProps: {
-              href: "#",
+              href: "#download",
             },
             text: "Télécharger l'app",
           },
