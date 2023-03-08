@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Accueil - BPCO</title>
+        <title>BPCO - Accueil</title>
         <meta
           name="description"
           content="L'application mobile pour les patients BPCO qui veulent suivre leurs signes cliniques respiratoires"

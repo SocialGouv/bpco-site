@@ -109,6 +109,8 @@ function App({ Component, pageProps }: AppProps) {
           médecin réanimateur à l'hôpital Forcilles - Fondation Cognacq-Jay, financé par l'ARS Ile-de-France,
           en collaboration avec la Fabrique du numérique des ministères sociaux.
         `}
+        termsLinkProps={{ href: "/terms" }}
+        personalDataLinkProps={{ href: "/privacy-policy" }}
       />
       <Display />
     </div>

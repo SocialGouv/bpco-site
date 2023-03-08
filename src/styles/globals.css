@@ -5,8 +5,6 @@ h1 {
 .text-lead {
   margin: 0;
   font-weight: 400;
-  /* font-size: 1.75rem !important;
-  line-height: 2.25rem !important; */
   font-size: 1.5rem !important;
   line-height: 2rem !important;
   color: var(--text-default-grey) !important;
