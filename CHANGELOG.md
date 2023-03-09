@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/SocialGouv/bpco-site/compare/v1.0.2...v1.0.3) (2023-03-09)
+
+
+### Bug Fixes
+
+* bump version ([a153c01](https://github.com/SocialGouv/bpco-site/commit/a153c01fe11221fb154ed4f4d2078e0646898b8a))
+
 ## [1.0.2](https://github.com/SocialGouv/bpco-site/compare/v1.0.1...v1.0.2) (2023-03-09)
 
 
