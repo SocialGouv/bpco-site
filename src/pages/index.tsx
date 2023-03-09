@@ -95,7 +95,7 @@ export default function Home() {
               </CallOut>
             </li>
             <li>
-              <CallOut title="3eme">
+              <CallOut title="3ème">
                 cause de mortalité dans le monde (env. 18 000 morts/an en
                 France)
               </CallOut>
