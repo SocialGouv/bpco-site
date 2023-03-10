@@ -111,6 +111,21 @@ function App({ Component, pageProps }: AppProps) {
         `}
         termsLinkProps={{ href: "/terms" }}
         personalDataLinkProps={{ href: "/privacy-policy" }}
+        websiteMapLinkProps={{ href: "#" }}
+        partnersLogos={{
+          main: {
+            imgUrl: "/logo-ars.png",
+            alt: "Logo de l'ARS Île de France",
+            href: "https://www.iledefrance.ars.sante.fr/",
+          },
+          sub: [
+            {
+              imgUrl: "/logo-hf.png",
+              alt: "Logo de l'hopital forcilles",
+              href: "https://hopital-forcilles.cognacq-jay.fr/",
+            },
+          ],
+        }}
       />
       <Display />
     </div>
