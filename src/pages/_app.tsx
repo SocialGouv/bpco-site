@@ -45,6 +45,7 @@ function App({ Component, pageProps }: AppProps) {
       SOCIAUX
     </>
   );
+
   const homeLinkProps = { href: "/", title: "Accueil - BPCO" };
 
   return (
@@ -58,29 +59,34 @@ function App({ Component, pageProps }: AppProps) {
       <Header
         brandTop={brandTop}
         serviceTitle="BPCO'Mieux"
-        homeLinkProps={homeLinkProps}
-        serviceTagline="La solution numérique de suivi quotidien des signes cliniques respiratoires des patients BPCO"
         operatorLogo={{
           alt: "logo BPCO",
-          imgUrl: "bpco.png",
           orientation: "horizontal",
+          imgUrl: "logo-bpco-small.png",
         }}
-        quickAccessItems={[
-          {
-            iconId: "ri-customer-service-2-line",
-            linkProps: {
-              href: "#nous-contacter",
-            },
-            text: "Nous contacter",
-          },
-          {
-            iconId: "ri-download-cloud-line",
-            linkProps: {
-              href: "#download",
-            },
-            text: "Télécharger l'app",
-          },
-        ]}
+        homeLinkProps={homeLinkProps}
+        serviceTagline="La solution numérique de suivi quotidien des signes cliniques respiratoires des patients BPCO"
+        // operatorLogo={{
+        //   alt: "logo BPCO",
+        //   imgUrl: "logo-bpco.png",
+        //   orientation: "horizontal",
+        // }}
+        // quickAccessItems={[
+        //   {
+        //     iconId: "ri-customer-service-2-line",
+        //     linkProps: {
+        //       href: "#nous-contacter",
+        //     },
+        //     text: "Nous contacter",
+        //   },
+        //   {
+        //     iconId: "ri-download-cloud-line",
+        //     linkProps: {
+        //       href: "#download",
+        //     },
+        //     text: "Télécharger l'app",
+        //   },
+        // ]}
       />
       <main
         style={{
@@ -96,22 +102,22 @@ function App({ Component, pageProps }: AppProps) {
       </main>
       <Footer
         brandTop={brandTop}
+        operatorLogo={{
+          alt: "logo BPCO",
+          imgUrl: "logo-bpco.png",
+          orientation: "horizontal",
+        }}
         homeLinkProps={homeLinkProps}
         accessibility="fully compliant"
         bottomItems={[headerFooterDisplayItem]}
-        operatorLogo={{
-          alt: "logo BPCO",
-          imgUrl: "bpco.png",
-          orientation: "horizontal",
-        }}
         contentDescription={`
           BPCO'Mieux est un dispositif expérimental créé par le Dr Jean-Baptiste PERETOUT,
           médecin réanimateur à l'hôpital Forcilles - Fondation Cognacq-Jay, financé par l'ARS Ile-de-France,
           en collaboration avec la Fabrique du numérique des ministères sociaux.
         `}
         termsLinkProps={{ href: "/terms" }}
-        personalDataLinkProps={{ href: "/privacy-policy" }}
         websiteMapLinkProps={{ href: "#" }}
+        personalDataLinkProps={{ href: "/privacy-policy" }}
         partnersLogos={{
           main: {
             imgUrl: "/logo-ars.png",

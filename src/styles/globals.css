@@ -80,3 +80,8 @@ ul.tiles li {
 .fr-header__tools-links .fr-btn {
   color: var(--text-default-info);
 }
+
+.fr-header__operator img {
+  width: 4.3rem;
+  height: 4.3rem;
+}
