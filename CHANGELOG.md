@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/SocialGouv/bpco-site/compare/v1.1.0...v1.2.0) (2023-03-10)
+
+
+### Features
+
+* remove header links ([70c8d49](https://github.com/SocialGouv/bpco-site/commit/70c8d49e118c66ca9a9a7213401f629aede1b7c5))
+
 # [1.1.0](https://github.com/SocialGouv/bpco-site/compare/v1.0.3...v1.1.0) (2023-03-10)
 
 
