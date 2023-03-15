@@ -67,7 +67,11 @@ export default function Home() {
         </section>
 
         <section className="fr-container store-links">
-          <a target="_blank" href="#" id="download">
+          <a
+            target="_blank"
+            href="https://apps.apple.com/us/app/bpcomieux/id1670657282"
+            id="download"
+          >
             <Image
               priority
               width={250}
@@ -75,7 +79,10 @@ export default function Home() {
               alt="Image du lien vers l'App Store"
             />
           </a>
-          <a target="_blank" href="#">
+          <a
+            target="_blank"
+            href="https://play.google.com/store/apps/details?id=com.bpcosuiviquotidien"
+          >
             <Image
               priority
               width={250}
