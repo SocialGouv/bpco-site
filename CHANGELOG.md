@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/SocialGouv/bpco-site/compare/v1.2.1...v1.2.2) (2023-03-15)
+
+
+### Bug Fixes
+
+* update store app links ([f7e172f](https://github.com/SocialGouv/bpco-site/commit/f7e172f6f54a8a052d4a8386787b00494ce61352))
+
 ## [1.2.1](https://github.com/SocialGouv/bpco-site/compare/v1.2.0...v1.2.1) (2023-03-13)
 
 
