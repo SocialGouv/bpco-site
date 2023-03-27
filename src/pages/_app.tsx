@@ -1,7 +1,7 @@
-import type { AppProps } from "next/app";
-
 import Link from "next/link";
+import type { AppProps } from "next/app";
 import { fr } from "@codegouvfr/react-dsfr";
+import { init } from "@socialgouv/matomo-next";
 import { Header } from "@codegouvfr/react-dsfr/Header";
 import { Footer } from "@codegouvfr/react-dsfr/Footer";
 import {
@@ -11,6 +11,7 @@ import {
 import { createNextDsfrIntegrationApi } from "@codegouvfr/react-dsfr/next-pagesdir";
 
 import "@/styles/globals.css";
+import { useEffect } from "react";
 
 declare module "@codegouvfr/react-dsfr/next-pagesdir" {
   interface RegisterLink {
@@ -37,6 +38,9 @@ const { withDsfr, dsfrDocumentApi } = createNextDsfrIntegrationApi({
 
 export { dsfrDocumentApi };
 
+const MATOMO_URL = process.env.NEXT_PUBLIC_MATOMO_URL || "";
+const MATOMO_SITE_ID = process.env.NEXT_PUBLIC_MATOMO_SITE_ID || "";
+
 function App({ Component, pageProps }: AppProps) {
   const brandTop = (
     <>
@@ -47,6 +51,10 @@ function App({ Component, pageProps }: AppProps) {
   );
 
   const homeLinkProps = { href: "/", title: "Accueil - BPCO" };
+
+  useEffect(() => {
+    init({ url: MATOMO_URL, siteId: MATOMO_SITE_ID });
+  }, []);
 
   return (
     <div
@@ -66,27 +74,6 @@ function App({ Component, pageProps }: AppProps) {
         }}
         homeLinkProps={homeLinkProps}
         serviceTagline="La solution numérique de suivi quotidien des signes cliniques respiratoires des patients BPCO"
-        // operatorLogo={{
-        //   alt: "logo BPCO",
-        //   imgUrl: "logo-bpco.png",
-        //   orientation: "horizontal",
-        // }}
-        // quickAccessItems={[
-        //   {
-        //     iconId: "ri-customer-service-2-line",
-        //     linkProps: {
-        //       href: "#nous-contacter",
-        //     },
-        //     text: "Nous contacter",
-        //   },
-        //   {
-        //     iconId: "ri-download-cloud-line",
-        //     linkProps: {
-        //       href: "#download",
-        //     },
-        //     text: "Télécharger l'app",
-        //   },
-        // ]}
       />
       <main
         style={{

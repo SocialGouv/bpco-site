@@ -1,2 +1,5 @@
 app:
   host: bpcomieux.fabrique.social.gouv.fr
+  envFrom:
+    - configMapRef:
+        name: app-configmap
