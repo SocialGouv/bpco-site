@@ -1,3 +1,11 @@
+# [1.3.0](https://github.com/SocialGouv/bpco-site/compare/v1.2.3...v1.3.0) (2023-03-28)
+
+
+### Features
+
+* add matomo-next ([eae4885](https://github.com/SocialGouv/bpco-site/commit/eae48855391cb958daa4e79cb0018b1bd2ffc88e))
+* add matomo-next ([f11be17](https://github.com/SocialGouv/bpco-site/commit/f11be17d9dbb4a511ae78c8ad03c5782d9bc668b))
+
 ## [1.2.3](https://github.com/SocialGouv/bpco-site/compare/v1.2.2...v1.2.3) (2023-03-27)
 
 
