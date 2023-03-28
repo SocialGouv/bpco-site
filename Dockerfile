@@ -14,8 +14,12 @@ RUN yarn --frozen-lockfile --ignore-engines
 
 COPY . .
 
-ENV NEXT_PUBLIC_MATOMO_SITE_ID="88"
-ENV NEXT_PUBLIC_MATOMO_URL="https://matomo.fabrique.social.gouv.fr"
+ARG NEXT_PUBLIC_MATOMO_SITE_ID
+ENV NEXT_PUBLIC_MATOMO_SITE_ID=$NEXT_PUBLIC_MATOMO_SITE_ID
+
+ARG NEXT_PUBLIC_MATOMO_URL
+ENV NEXT_PUBLIC_MATOMO_URL=$NEXT_PUBLIC_MATOMO_URL
+
 ENV NODE_ENV=production
 
 RUN yarn --ignore-engines build-static

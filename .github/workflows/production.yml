@@ -20,6 +20,9 @@ jobs:
           environment: prod
           imagePackage: app
           token: ${{ secrets.GITHUB_TOKEN }}
+          dockerbuildargs: |
+            NEXT_PUBLIC_MATOMO_SITE_AGENT_ID=88
+            NEXT_PUBLIC_MATOMO_URL=https://matomo.fabrique.social.gouv.fr/
 
   deploy:
     name: Deploy application
