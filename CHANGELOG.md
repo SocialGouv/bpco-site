@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/SocialGouv/bpco-site/compare/v1.3.0...v1.3.1) (2023-03-28)
+
+
+### Bug Fixes
+
+* url matomo ([59cdd95](https://github.com/SocialGouv/bpco-site/commit/59cdd957ab88380491c90b31e60cbdcf6a2bf392))
+
 # [1.3.0](https://github.com/SocialGouv/bpco-site/compare/v1.2.3...v1.3.0) (2023-03-28)
 
 
