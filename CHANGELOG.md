@@ -1,3 +1,10 @@
+## [1.3.2](https://github.com/SocialGouv/bpco-site/compare/v1.3.1...v1.3.2) (2023-03-28)
+
+
+### Bug Fixes
+
+* url matomo docker ([076b1e3](https://github.com/SocialGouv/bpco-site/commit/076b1e3aa1caca9cba7cb4f7b0ad5b541c45ed3d))
+
 ## [1.3.1](https://github.com/SocialGouv/bpco-site/compare/v1.3.0...v1.3.1) (2023-03-28)
 
 
