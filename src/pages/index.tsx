@@ -6,6 +6,7 @@ import { CallOut } from "@codegouvfr/react-dsfr/CallOut";
 import jumboPic from "../../public/jumbo.png";
 import appStorePic from "../../public/app-store.png";
 import googlePlayPic from "../../public/google-play.png";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -67,29 +68,21 @@ export default function Home() {
         </section>
 
         <section className="fr-container store-links">
-          <a
-            target="_blank"
-            href="https://apps.apple.com/us/app/bpcomieux/id1670657282"
-            id="download"
-          >
+          <Link href="/download" id="download">
             <Image
+              style={{ marginRight: 20 }}
               priority
               width={250}
               src={appStorePic}
               alt="Image du lien vers l'App Store"
             />
-          </a>
-          <a
-            target="_blank"
-            href="https://play.google.com/store/apps/details?id=com.bpcosuiviquotidien"
-          >
             <Image
               priority
               width={250}
               src={googlePlayPic}
               alt="Image du lien vers le Google Play Store"
             />
-          </a>
+          </Link>
         </section>
 
         <section className="fr-container">
