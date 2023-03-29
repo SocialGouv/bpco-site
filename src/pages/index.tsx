@@ -27,13 +27,7 @@ export default function Home() {
             Chronique Obstructive) <br /> qui veulent suivre leurs signes
             cliniques respiratoires
           </p>
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "row",
-              alignItems: "stretch",
-            }}
-          >
+          <div className="hero">
             <ul className="jumbo-list">
               <li>
                 <div>100% gratuit, 100% anonyme et sans création de compte</div>
@@ -68,14 +62,15 @@ export default function Home() {
         </section>
 
         <section className="fr-container store-links">
-          <Link href="/download" id="download">
+          <Link href="/download" id="download-ios">
             <Image
-              style={{ marginRight: 20 }}
               priority
               width={250}
               src={appStorePic}
               alt="Image du lien vers l'App Store"
             />
+          </Link>
+          <Link href="/download" id="download-android">
             <Image
               priority
               width={250}
@@ -161,7 +156,7 @@ export default function Home() {
         <section className="fr-container">
           <Card
             horizontal
-            size="large"
+            size="small"
             enlargeLink={false}
             title="Nous contacter"
             linkProps={{ href: "#nous-contacter", id: "nous-contacter" }}
