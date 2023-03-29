@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/SocialGouv/bpco-site/compare/v1.3.2...v1.4.0) (2023-03-29)
+
+
+### Features
+
+* download app - redirect to stores ([#7](https://github.com/SocialGouv/bpco-site/issues/7)) ([4262f95](https://github.com/SocialGouv/bpco-site/commit/4262f95e0db761d322854ec75e0489f5047871fd))
+
 ## [1.3.2](https://github.com/SocialGouv/bpco-site/compare/v1.3.1...v1.3.2) (2023-03-28)
 
 
