@@ -1,3 +1,10 @@
+## [1.4.2](https://github.com/SocialGouv/bpco-site/compare/v1.4.1...v1.4.2) (2023-03-29)
+
+
+### Bug Fixes
+
+* responsive ([a040128](https://github.com/SocialGouv/bpco-site/commit/a040128ad41b1a9f7c3962cebbca57a8c342e9d4))
+
 ## [1.4.1](https://github.com/SocialGouv/bpco-site/compare/v1.4.0...v1.4.1) (2023-03-29)
 
 
