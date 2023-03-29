@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/SocialGouv/bpco-site/compare/v1.4.0...v1.4.1) (2023-03-29)
+
+
+### Bug Fixes
+
+* add link download home ([5e452f7](https://github.com/SocialGouv/bpco-site/commit/5e452f7ccb65d3fd179b0694ce537f6e60f3f0a4))
+
 # [1.4.0](https://github.com/SocialGouv/bpco-site/compare/v1.3.2...v1.4.0) (2023-03-29)
 
 
