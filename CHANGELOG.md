@@ -1,3 +1,10 @@
+## [1.4.3](https://github.com/SocialGouv/bpco-site/compare/v1.4.2...v1.4.3) (2023-04-03)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @types/react to v18.0.32 ([#10](https://github.com/SocialGouv/bpco-site/issues/10)) ([6daff52](https://github.com/SocialGouv/bpco-site/commit/6daff527cc131ab583407f54e391687603bff070))
+
 ## [1.4.2](https://github.com/SocialGouv/bpco-site/compare/v1.4.1...v1.4.2) (2023-03-29)
 
 
