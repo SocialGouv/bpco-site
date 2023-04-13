@@ -1,3 +1,10 @@
+## [1.4.4](https://github.com/SocialGouv/bpco-site/compare/v1.4.3...v1.4.4) (2023-04-13)
+
+
+### Bug Fixes
+
+* url matomo workflow ([c7c4071](https://github.com/SocialGouv/bpco-site/commit/c7c4071494dc0369dd7faec3ef5f0b3e4ad70d82))
+
 ## [1.4.3](https://github.com/SocialGouv/bpco-site/compare/v1.4.2...v1.4.3) (2023-04-03)
 
 
