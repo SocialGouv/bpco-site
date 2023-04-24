@@ -1,3 +1,10 @@
+## [1.4.6](https://github.com/SocialGouv/bpco-site/compare/v1.4.5...v1.4.6) (2023-04-24)
+
+
+### Bug Fixes
+
+* **deps:** update all dependencies (patch) ([#11](https://github.com/SocialGouv/bpco-site/issues/11)) ([9822891](https://github.com/SocialGouv/bpco-site/commit/98228913cda7aec551b374cd5517862a7e19ba9c))
+
 ## [1.4.5](https://github.com/SocialGouv/bpco-site/compare/v1.4.4...v1.4.5) (2023-04-13)
 
 
