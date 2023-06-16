@@ -1,3 +1,10 @@
+## [1.4.9](https://github.com/SocialGouv/bpco-site/compare/v1.4.8...v1.4.9) (2023-06-16)
+
+
+### Bug Fixes
+
+* csp ([9d0fea7](https://github.com/SocialGouv/bpco-site/commit/9d0fea779bd123c1b29a3722e23fa0d920ee19f4))
+
 ## [1.4.8](https://github.com/SocialGouv/bpco-site/compare/v1.4.7...v1.4.8) (2023-06-16)
 
 
