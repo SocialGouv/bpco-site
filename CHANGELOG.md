@@ -1,3 +1,10 @@
+## [1.4.7](https://github.com/SocialGouv/bpco-site/compare/v1.4.6...v1.4.7) (2023-06-16)
+
+
+### Bug Fixes
+
+* dummy ([a30f9b0](https://github.com/SocialGouv/bpco-site/commit/a30f9b038611066d0be92e8400092b99769296db))
+
 ## [1.4.6](https://github.com/SocialGouv/bpco-site/compare/v1.4.5...v1.4.6) (2023-04-24)
 
 
