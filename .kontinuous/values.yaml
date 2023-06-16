@@ -1,4 +1,6 @@
 
+global:
+  rancherProjectId: "c-gjtkk:p-7hrfc"
 
 app:
   containerPort: 8080

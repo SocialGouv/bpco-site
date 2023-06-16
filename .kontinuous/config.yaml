@@ -1,5 +1,6 @@
 projectName: bpco-mieux
 
+
 dependencies:
   fabrique:
     import: socialgouv/kontinuous/plugins/fabrique
