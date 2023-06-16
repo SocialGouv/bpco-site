@@ -1,6 +1,3 @@
-global:
-  rancherProjectId: "c-5rj5b:p-ndtbr"
-
 app:
   host: bpcomieux.fabrique.social.gouv.fr
 
