@@ -1,3 +1,10 @@
+## [1.4.8](https://github.com/SocialGouv/bpco-site/compare/v1.4.7...v1.4.8) (2023-06-16)
+
+
+### Bug Fixes
+
+* use kontinuous ci ([#14](https://github.com/SocialGouv/bpco-site/issues/14)) ([badce00](https://github.com/SocialGouv/bpco-site/commit/badce00e01aa5149c6ce5c5051e7714a39f1ec0e))
+
 ## [1.4.7](https://github.com/SocialGouv/bpco-site/compare/v1.4.6...v1.4.7) (2023-06-16)
 
 
