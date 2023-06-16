@@ -1,4 +1,8 @@
 
+global:
+  rancherProjectId: "c-gjtkk:p-7hrfc"
+  ciNamespace: ci-bpco-mieux
+
 app:
   containerPort: 8080
   ~needs: [build-app]
