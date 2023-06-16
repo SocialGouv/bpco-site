@@ -1,0 +1,16 @@
+global:
+  rancherProjectId: "c-5rj5b:p-ndtbr"
+
+app:
+  host: bpcomieux.fabrique.social.gouv.fr
+
+jobs:
+  runs:
+    build-app:
+      use: build
+      with:
+        imagePackage: app
+        buildArgs:
+          COMMIT_SHA: "{{ $.Values.global.sha }}"
+          NEXT_PUBLIC_MATOMO_SITE_ID: "88"
+          NEXT_PUBLIC_MATOMO_URL: "https://matomo.fabrique.social.gouv.fr"
