@@ -1,5 +1,5 @@
 projectName: bpco-mieux
-
+ciNamespace: ci-bpco-mieux
 
 dependencies:
   fabrique:
