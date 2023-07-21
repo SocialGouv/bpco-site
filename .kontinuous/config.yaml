@@ -3,4 +3,9 @@ ciNamespace: ci-bpco-mieux
 
 dependencies:
   fabrique:
-    import: socialgouv/kontinuous/plugins/fabrique
+    extends:
+    - name: ovh
+      ifEnv: [dev,preprod]
+    - name: buildkit-service
+      ifEnv: [dev,preprod]
+      
