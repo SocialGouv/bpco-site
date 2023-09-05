@@ -2,15 +2,12 @@ FROM node:16-alpine as builder
 
 RUN apk add --no-cache gcc autoconf automake build-base libpng-dev nasm
 
+USER 1000
 WORKDIR /app
 
-RUN chown node:node /app
-
-COPY ./package.json .
-COPY ./yarn.lock .
-
-RUN yarn --frozen-lockfile --ignore-engines
-
+COPY yarn.lock .yarnrc.yml ./
+COPY --chown=1000:1000 .yarn .yarn
+RUN yarn fetch --immutable && yarn cache clean
 
 COPY . .
 
