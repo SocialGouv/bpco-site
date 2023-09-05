@@ -2,6 +2,8 @@ FROM node:16-alpine as builder
 
 RUN apk add --no-cache gcc autoconf automake build-base libpng-dev nasm
 
+RUN chmod 0755 /home/node
+
 USER 1000
 WORKDIR /app
 
