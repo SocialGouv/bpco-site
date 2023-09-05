@@ -9,7 +9,7 @@ COPY yarn.lock .yarnrc.yml ./
 COPY --chown=1000:1000 .yarn .yarn
 RUN yarn fetch --immutable && yarn cache clean
 
-COPY . .
+COPY --chown=1000:1000 . .
 
 ARG NEXT_PUBLIC_MATOMO_SITE_ID
 ENV NEXT_PUBLIC_MATOMO_SITE_ID=$NEXT_PUBLIC_MATOMO_SITE_ID
@@ -19,7 +19,7 @@ ENV NEXT_PUBLIC_MATOMO_URL=$NEXT_PUBLIC_MATOMO_URL
 
 ENV NODE_ENV=production
 
-RUN yarn --ignore-engines build-static
+RUN yarn build-static
 
 FROM ghcr.io/socialgouv/docker/nginx:8.0.2
 
