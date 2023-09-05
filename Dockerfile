@@ -2,7 +2,7 @@ FROM node:16-alpine as builder
 
 RUN apk add --no-cache gcc autoconf automake build-base libpng-dev nasm
 
-RUN mkdir /app && chown 1000:1000 /app
+RUN chown 1000:1000 /home/node
 USER 1000
 WORKDIR /app
 
