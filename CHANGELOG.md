@@ -1,3 +1,10 @@
+## [1.5.1](https://github.com/SocialGouv/bpco-site/compare/v1.5.0...v1.5.1) (2023-09-12)
+
+
+### Bug Fixes
+
+* yarn berry + fetch + docker opti ([#22](https://github.com/SocialGouv/bpco-site/issues/22)) ([fcf13c0](https://github.com/SocialGouv/bpco-site/commit/fcf13c033360afc7cee7a1514c76e31fcc46bfaa))
+
 # [1.5.0](https://github.com/SocialGouv/bpco-site/compare/v1.4.9...v1.5.0) (2023-07-24)
 
 
