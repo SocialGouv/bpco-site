@@ -1,18 +1,20 @@
 FROM node:16-alpine as builder
 
+RUN chown -R 1000:1000 /home/node && \
+  chmod -R 755 /home/node && \
+  chown 1000:1000 /tmp && \
+  chmod 1777 /tmp
+
 RUN apk add --no-cache gcc autoconf automake build-base libpng-dev nasm
 
+USER 1000
 WORKDIR /app
 
-RUN chown node:node /app
+COPY yarn.lock .yarnrc.yml ./
+COPY --chown=1000:1000 .yarn .yarn
+RUN yarn fetch --immutable && yarn cache clean
 
-COPY ./package.json .
-COPY ./yarn.lock .
-
-RUN yarn --frozen-lockfile --ignore-engines
-
-
-COPY . .
+COPY --chown=1000:1000 . .
 
 ARG NEXT_PUBLIC_MATOMO_SITE_ID
 ENV NEXT_PUBLIC_MATOMO_SITE_ID=$NEXT_PUBLIC_MATOMO_SITE_ID
@@ -22,7 +24,7 @@ ENV NEXT_PUBLIC_MATOMO_URL=$NEXT_PUBLIC_MATOMO_URL
 
 ENV NODE_ENV=production
 
-RUN yarn --ignore-engines build-static
+RUN yarn build-static
 
 FROM ghcr.io/socialgouv/docker/nginx:8.0.2
 
