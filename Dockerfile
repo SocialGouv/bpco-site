@@ -3,7 +3,9 @@ FROM node:16-alpine as builder
 RUN chown -R 1000:1000 /home/node && \
   chmod -R 755 /home/node && \
   chown 1000:1000 /tmp && \
-  chmod 1777 /tmp
+  chmod 1777 /tmp && \
+  mkdir /app && \
+  chown 1000:1000 /app
 
 RUN apk add --no-cache gcc autoconf automake build-base libpng-dev nasm
 
