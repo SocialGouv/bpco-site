@@ -1,3 +1,10 @@
+## [1.5.2](https://github.com/SocialGouv/bpco-site/compare/v1.5.1...v1.5.2) (2023-09-12)
+
+
+### Bug Fixes
+
+* dockerfile perms ([bf2cdad](https://github.com/SocialGouv/bpco-site/commit/bf2cdad944950299dbd18669b32b9085074808c9))
+
 ## [1.5.1](https://github.com/SocialGouv/bpco-site/compare/v1.5.0...v1.5.1) (2023-09-12)
 
 
