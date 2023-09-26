@@ -95,7 +95,7 @@ function App({ Component, pageProps }: AppProps) {
           orientation: "horizontal",
         }}
         homeLinkProps={homeLinkProps}
-        accessibility="fully compliant"
+        accessibility="non compliant"
         bottomItems={[headerFooterDisplayItem]}
         contentDescription={`
           BPCO'Mieux est un dispositif expérimental créé par le Dr Jean-Baptiste PERETOUT,
