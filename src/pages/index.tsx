@@ -171,6 +171,20 @@ export default function Home() {
             }
           />
         </section>
+        <section className="fr-container">
+          <Card
+            horizontal
+            size="small"
+            enlargeLink={false}
+            title="Statistiques"
+            linkProps={{ href: "#statistiques", id: "statistiques" }}
+            footer={
+              <a href="/stats" className="fr-btn fr-btn--primary">
+                Consulter les statistiques
+              </a>
+            }
+          />
+        </section>
       </>
     </>
   );
