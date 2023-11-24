@@ -179,9 +179,9 @@ export default function Home() {
             title="Statistiques"
             linkProps={{ href: "#statistiques", id: "statistiques" }}
             footer={
-              <a href="/stats" className="fr-btn fr-btn--primary">
+              <Link href="/stats" className="fr-btn fr-btn--primary">
                 Consulter les statistiques
-              </a>
+              </Link>
             }
           />
         </section>
