@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/SocialGouv/bpco-site/compare/v1.5.2...v1.6.0) (2023-11-24)
+
+
+### Features
+
+* add stats page ([4f2a809](https://github.com/SocialGouv/bpco-site/commit/4f2a80904b056dfd917c2eff15e34d9927987081))
+
 ## [1.5.2](https://github.com/SocialGouv/bpco-site/compare/v1.5.1...v1.5.2) (2023-09-12)
 
 
