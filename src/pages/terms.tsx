@@ -43,10 +43,9 @@ export default function Terms() {
           <p>Ce site est hébergé par :</p>
           <br />
           <address>
-            Microsoft Azure <br />
-            39 Quai du président Roosevelt <br />
-            92130 Issy-les-Moulineaux <br />
-            France
+            OVH SAS<br />
+            2 rue Kellermann - 59100 Roubaix<br />
+            France.
           </address>
         </section>
 
