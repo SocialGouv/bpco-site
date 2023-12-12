@@ -43,8 +43,10 @@ export default function Terms() {
           <p>Ce site est hébergé par :</p>
           <br />
           <address>
-            OVH SAS<br />
-            2 rue Kellermann - 59100 Roubaix<br />
+            OVH SAS
+            <br />
+            2 rue Kellermann - 59100 Roubaix
+            <br />
             France.
           </address>
         </section>
