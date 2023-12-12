@@ -1,3 +1,10 @@
+## [1.7.1](https://github.com/SocialGouv/bpco-site/compare/v1.7.0...v1.7.1) (2023-12-12)
+
+
+### Bug Fixes
+
+* prettier ([49331e7](https://github.com/SocialGouv/bpco-site/commit/49331e74c65ac4400aa82cc120c42ea92912e490))
+
 # [1.7.0](https://github.com/SocialGouv/bpco-site/compare/v1.6.1...v1.7.0) (2023-12-12)
 
 
