@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/SocialGouv/bpco-site/compare/v1.6.1...v1.7.0) (2023-12-12)
+
+
+### Features
+
+* ovh in prod ([#29](https://github.com/SocialGouv/bpco-site/issues/29)) ([3287ace](https://github.com/SocialGouv/bpco-site/commit/3287ace073212cacf983d9115e18f90406a35914))
+
 ## [1.6.1](https://github.com/SocialGouv/bpco-site/compare/v1.6.0...v1.6.1) (2023-11-24)
 
 
