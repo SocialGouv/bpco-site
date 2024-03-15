@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/SocialGouv/bpco-site/compare/v1.7.1...v1.8.0) (2024-03-15)
+
+
+### Features
+
+* add page fin de service ([bd1f93f](https://github.com/SocialGouv/bpco-site/commit/bd1f93f0389fcc957dbdc333d3f0faeca8a97ab9))
+
 ## [1.7.1](https://github.com/SocialGouv/bpco-site/compare/v1.7.0...v1.7.1) (2023-12-12)
 
 
