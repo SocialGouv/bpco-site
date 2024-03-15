@@ -1,3 +1,10 @@
+## [1.8.1](https://github.com/SocialGouv/bpco-site/compare/v1.8.0...v1.8.1) (2024-03-15)
+
+
+### Bug Fixes
+
+* apos ([303cfb2](https://github.com/SocialGouv/bpco-site/commit/303cfb2d78ed489c7e041be7d0d3e9abe4808831))
+
 # [1.8.0](https://github.com/SocialGouv/bpco-site/compare/v1.7.1...v1.8.0) (2024-03-15)
 
 
