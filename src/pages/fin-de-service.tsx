@@ -13,31 +13,33 @@ export default function FinDeService() {
       </Head>
       <>
         <section className="fr-container">
-          <h1 style={{ marginBottom: "4rem" }}>Fin de servic de BPCO'Mieux</h1>
+          <h1 style={{ marginBottom: "4rem" }}>
+            Fin de service de BPCO&apos;Mieux
+          </h1>
 
           <h2>
-            L'application ne sera plus maintenue et plus accessible sur les
+            L&apos;application ne sera plus maintenue et plus accessible sur les
             stores à partir du 15 avril 2024
           </h2>
           <div
             style={{ display: "flex", flexDirection: "column", gap: "2rem" }}
           >
             <p>
-              BPCO’Mieux est l'une des 3 start up d'Etat sélectionnée lors du
-              dernier Appel à innovateur de l'ARS Île de France 2022 et incubée
-              à La Fabrique numérique des Ministères sociaux en février 2023.
-              C’est un dispositif expérimental en île de France dont la première
-              version de l'application a été lancée sur les stores IOS/Androïd
-              depuis mi-mars 2023.
+              BPCO&apos;Mieux est l&apos;une des 3 start up d&apos;Etat
+              sélectionnée lors du dernier Appel à innovateur de l&apos;ARS Île
+              de France 2022 et incubée à La Fabrique numérique des Ministères
+              sociaux en février 2023. C&apos;est un dispositif expérimental en
+              île de France dont la première version de l&apos;application a été
+              lancée sur les stores IOS/Androïd depuis mi-mars 2023.
             </p>
             <p>
-              BPCO’Mieux est le compagnon numérique dédié aux patients atteints
-              de BPCO après une 1ère exacerbation qui permet de prévenir leurs
-              aggravations respiratoires et de limiter leur dégradation de la
-              qualité de vie, en évaluant leur état de santé en moins de 30
-              secondes au travers un auto-questionnaire afin d’être alerté sur
-              le besoin ou non de consulter un professionnel en cas de
-              décompensation détectée.
+              BPCO&apos;Mieux est le compagnon numérique dédié aux patients
+              atteints de BPCO après une 1ère exacerbation qui permet de
+              prévenir leurs aggravations respiratoires et de limiter leur
+              dégradation de la qualité de vie, en évaluant leur état de santé
+              en moins de 30 secondes au travers un auto-questionnaire afin
+              d&apos;être alerté sur le besoin ou non de consulter un
+              professionnel en cas de décompensation détectée.
             </p>
             <p>
               Cette application numérique a été expérimentée principalement dans
@@ -50,8 +52,8 @@ export default function FinDeService() {
 
             <div>
               <p>
-                Au travers cette expérience humaine et riche d'apprentissages,
-                nous retenons 3 données essentielles :
+                Au travers cette expérience humaine et riche
+                d&apos;apprentissages, nous retenons 3 données essentielles :
               </p>
               <ul style={{ listStyle: "inside" }}>
                 <li>
@@ -69,10 +71,11 @@ export default function FinDeService() {
             </div>
 
             <p>
-              A l’issue de la période d’incubation et d’expérimentation du
-              produit en 2023, BPCO’Mieux va sortir du dispositif Start up
-              d’Etat et ce, dès le 15 avril. Le service ne sera plus maintenu et
-              ne sera plus téléchargeable dans les stores IOS et Android.
+              A l&apos;issue de la période d&apos;incubation et
+              d&apos;expérimentation du produit en 2023, BPCO&apos;Mieux va
+              sortir du dispositif Start up d&apos;Etat et ce, dès le 15 avril.
+              Le service ne sera plus maintenu et ne sera plus téléchargeable
+              dans les stores IOS et Android.
             </p>
 
             <div>
@@ -84,15 +87,16 @@ export default function FinDeService() {
               <ul style={{ listStyle: "inside" }}>
                 <li>
                   <a href="https://github.com/SocialGouv/bpco" target="_blank">
-                    le code de l'application mobile
+                    le code de l&apos;application mobile
                   </a>
                 </li>
                 <li>le figma</li>
               </ul>
             </div>
             <p>
-              Pour obtenir le dossier d’Architecture ainsi que le Readme partie
-              produit, merci d'écrire directement à l'adresse mail suivante :{" "}
+              Pour obtenir le dossier d&apos;Architecture ainsi que le Readme
+              partie produit, merci d&apos;écrire directement à l&apos;adresse
+              mail suivante :{" "}
               <a href="mailto:contact@fabrique.social.gouv.fr">
                 contact@fabrique.social.gouv.fr
               </a>
