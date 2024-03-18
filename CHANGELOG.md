@@ -1,3 +1,10 @@
+## [1.8.4](https://github.com/SocialGouv/bpco-site/compare/v1.8.3...v1.8.4) (2024-03-18)
+
+
+### Bug Fixes
+
+* add banner fin de service ([c1887e0](https://github.com/SocialGouv/bpco-site/commit/c1887e068773b335a02a26f1b4f20ef069e01ed7))
+
 ## [1.8.3](https://github.com/SocialGouv/bpco-site/compare/v1.8.2...v1.8.3) (2024-03-18)
 
 
