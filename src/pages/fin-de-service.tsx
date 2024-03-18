@@ -37,17 +37,17 @@ export default function FinDeService() {
               atteints de BPCO après une 1ère exacerbation qui permet de
               prévenir leurs aggravations respiratoires et de limiter leur
               dégradation de la qualité de vie, en évaluant leur état de santé
-              en moins de 30 secondes au travers un auto-questionnaire afin
-              d&apos;être alerté sur le besoin ou non de consulter un
-              professionnel en cas de décompensation détectée.
+              en moins de 30 secondes au travers un auto-questionnaire et être
+              alerté sur le besoin ou non de consulter un professionnel en cas
+              de décompensation détectée.
             </p>
             <p>
-              Cette application numérique a été expérimentée principalement dans
-              le département de la Seine et Marne et ce, grâce à la
-              collaboration et au soutien fort des différents acteurs de santé
-              de ce territoire. Une diffusion plus large a été également
-              réalisée auprès des CPTS, des prestataires de santé et en direct
-              auprès des patients via les associations.
+              Cette application mobile a été expérimentée principalement dans le
+              département de la Seine et Marne et ce, grâce à la collaboration
+              et au soutien fort des différents acteurs de santé de ce
+              territoire. Une diffusion plus large a été également réalisée
+              auprès des CPTS, des prestataires de santé et en direct auprès des
+              patients via les associations.
             </p>
 
             <div>
@@ -71,18 +71,17 @@ export default function FinDeService() {
             </div>
 
             <p>
-              A l&apos;issue de la période d&apos;incubation et
-              d&apos;expérimentation du produit en 2023, BPCO&apos;Mieux va
-              sortir du dispositif Start up d&apos;Etat et ce, dès le 15 avril.
-              Le service ne sera plus maintenu et ne sera plus téléchargeable
-              dans les stores IOS et Android.
+              Le dispositif d&apos;accompagnement Startup d&apos;Etat arrive à
+              son terme et comme prévu pour le projet BPCO&apos;Mieux après un
+              an d&apos;expérimentation. Le service ne sera donc plus maintenu,
+              ni téléchargeable dans les stores et ce, dès le 15 avril 2024.
             </p>
 
             <div>
               <p>
-                Dans ce cadre et afin de donner la pleine autonomisation à un
-                futur repreneur, la Fabrique Numérique des Ministères sociaux
-                met à disposition les liens suivants :
+                Pour tout éventuel futur repreneur et afin de donner la pleine
+                autonomisation, la Fabrique Numérique des Ministères sociaux met
+                à disposition le lien suivant :
               </p>
               <ul style={{ listStyle: "inside" }}>
                 <li>
@@ -90,16 +89,21 @@ export default function FinDeService() {
                     le code de l&apos;application mobile
                   </a>
                 </li>
-                <li>le figma</li>
               </ul>
             </div>
             <p>
-              Pour obtenir le dossier d&apos;Architecture ainsi que le Readme
-              partie produit, merci d&apos;écrire directement à l&apos;adresse
-              mail suivante :{" "}
+              Pour obtenir le dossier d&apos;Architecture, le Readme partie
+              produit ainsi que le prototype (Figma), merci d&apos;écrire
+              directement à l&apos;adresse mail suivante :
               <a href="mailto:contact@fabrique.social.gouv.fr">
                 contact@fabrique.social.gouv.fr
               </a>
+            </p>
+            <p>
+              Dans l&apos;attente, nous tenions chaleureusement à remercier le
+              GHSIF de Melun (notamment le ReS@m et l&apos;UTEP), le Dr Siret du
+              CDOM 77, Asten Santé ainsi que l&apos;ensemble des patients qui
+              nous ont accompagnés dans ce dispositif passionnant.
             </p>
           </div>
         </section>
