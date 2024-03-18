@@ -14,7 +14,8 @@ export default function FinDeService() {
       <>
         <section className="fr-container">
           <h1 style={{ marginBottom: "4rem" }}>
-            Fin de service de BPCO&apos;Mieux
+            BPCO&apos;Mieux // Fin du dispositif d&apos;accompagnement Start up
+            d&apos;Etat et du service public numérique
           </h1>
 
           <h2>
@@ -38,14 +39,14 @@ export default function FinDeService() {
               prévenir leurs aggravations respiratoires et de limiter leur
               dégradation de la qualité de vie, en évaluant leur état de santé
               en moins de 30 secondes au travers un auto-questionnaire et être
-              alerté sur le besoin ou non de consulter un professionnel en cas
+              alertés sur le besoin ou non de consulter un professionnel en cas
               de décompensation détectée.
             </p>
             <p>
               Cette application mobile a été expérimentée principalement dans le
               département de la Seine et Marne et ce, grâce à la collaboration
               et au soutien fort des différents acteurs de santé de ce
-              territoire. Une diffusion plus large a été également réalisée
+              territoire. Une diffusion plus large a également été réalisée
               auprès des CPTS, des prestataires de santé et en direct auprès des
               patients via les associations.
             </p>
@@ -71,7 +72,7 @@ export default function FinDeService() {
             </div>
 
             <p>
-              Le dispositif d&apos;accompagnement Startup d&apos;Etat arrive à
+              Le dispositif d&apos;accompagnement Startup d&apos;État arrive à
               son terme et comme prévu pour le projet BPCO&apos;Mieux après un
               an d&apos;expérimentation. Le service ne sera donc plus maintenu,
               ni téléchargeable dans les stores et ce, dès le 15 avril 2024.
@@ -79,9 +80,9 @@ export default function FinDeService() {
 
             <div>
               <p>
-                Pour tout éventuel futur repreneur et afin de donner la pleine
-                autonomisation, la Fabrique Numérique des Ministères sociaux met
-                à disposition le lien suivant :
+                Dans ce cadre et afin de donner la pleine autonomisation à un
+                futur repreneur, la Fabrique Numérique des Ministères sociaux
+                met à disposition :
               </p>
               <ul style={{ listStyle: "inside" }}>
                 <li>
@@ -94,7 +95,7 @@ export default function FinDeService() {
             <p>
               Pour obtenir le dossier d&apos;Architecture, le Readme partie
               produit ainsi que le prototype (Figma), merci d&apos;écrire
-              directement à l&apos;adresse mail suivante :
+              directement à l&apos;adresse mail suivante :&nbsp;
               <a href="mailto:contact@fabrique.social.gouv.fr">
                 contact@fabrique.social.gouv.fr
               </a>
@@ -105,6 +106,7 @@ export default function FinDeService() {
               CDOM 77, Asten Santé ainsi que l&apos;ensemble des patients qui
               nous ont accompagnés dans ce dispositif passionnant.
             </p>
+            <p>L&apos;équipe BPCO&apos;Mieux</p>
           </div>
         </section>
       </>
