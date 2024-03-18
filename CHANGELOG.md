@@ -1,3 +1,10 @@
+## [1.8.3](https://github.com/SocialGouv/bpco-site/compare/v1.8.2...v1.8.3) (2024-03-18)
+
+
+### Bug Fixes
+
+* wording fin de service ([a955444](https://github.com/SocialGouv/bpco-site/commit/a9554447b37952f2e690f53f5fae1831131ad246))
+
 ## [1.8.2](https://github.com/SocialGouv/bpco-site/compare/v1.8.1...v1.8.2) (2024-03-18)
 
 
