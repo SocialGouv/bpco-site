@@ -20,6 +20,19 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <>
+        <CallOut
+          buttonProps={{
+            children: "En savoir plus",
+            onClick: () => {
+              window.location.href = "/fin-de-service";
+            },
+          }}
+          title="Fin de service"
+          colorVariant="orange-terre-battue"
+        >
+          L&apos;application BPCO&apos;Mieux ne sera plus maintenue et plus
+          accessible sur les stores à partir du 15 avril 2024.
+        </CallOut>
         <section className="fr-container" style={{ position: "relative" }}>
           <h1>BPCO&apos;MIEUX</h1>
           <p className="text-lead">
