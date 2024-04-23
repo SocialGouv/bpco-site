@@ -14,17 +14,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@codegouvfr/react-dsfr@npm:0.43.3":
-  version: 0.43.3
-  resolution: "@codegouvfr/react-dsfr@npm:0.43.3"
+"@codegouvfr/react-dsfr@npm:1.9.9":
+  version: 1.9.9
+  resolution: "@codegouvfr/react-dsfr@npm:1.9.9"
   dependencies:
-    tsafe: ^1.6.0
-  peerDependencies:
-    react: ^16.8.0 || ^17.0.0 || ^18.0.0
+    tsafe: ^1.6.3
+    yargs-parser: ^21.1.1
   bin:
     copy-dsfr-to-public: bin/copy-dsfr-to-public.js
     only-include-used-icons: bin/only-include-used-icons.js
-  checksum: dd8ea4032ddf0d252e8dbd56faf401cc1926a3e4def1b610f5bd028c6eb0bbfde109117ab3736f79ed61aedadfb86a6f5eb06f7260c3da1b6ef5dd6c7a081cc4
+  checksum: 0880ea912264e90ca039254bd8deffb82be1ee295dc432c77ff09b04fd61ea0e62bcfabc715b20df4f04e713d91de7e95a3131a2e5653465c8daf3c2a1fb545b
   languageName: node
   linkType: hard
 
@@ -530,7 +529,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "bpco-landing@workspace:."
   dependencies:
-    "@codegouvfr/react-dsfr": 0.43.3
+    "@codegouvfr/react-dsfr": 1.9.9
     "@socialgouv/matomo-next": 1.6.1
     "@types/node": 18.14.6
     "@types/react": 18.0.38
@@ -2686,10 +2685,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tsafe@npm:^1.6.0":
-  version: 1.6.0
-  resolution: "tsafe@npm:1.6.0"
-  checksum: 1cea91c1b8a2d4d4ab37f940bbbe297890c5f83cf5415f1e7450373b47f621ebb5da962786a0f3eb1756ebf947750d3ece2b5bb64740c153cc1390cf41202fe1
+"tsafe@npm:^1.6.3":
+  version: 1.6.6
+  resolution: "tsafe@npm:1.6.6"
+  checksum: 7855ddf338455366a6876a0e1398e73a9e34c688925e8254934c2323c6540098120429fd825b0f7473ff5dfedcdbe60ca44727df8c2b96fd61985d3fc7cc4f12
   languageName: node
   linkType: hard
 
@@ -2866,6 +2865,13 @@ __metadata:
   version: 4.0.0
   resolution: "yallist@npm:4.0.0"
   checksum: 343617202af32df2a15a3be36a5a8c0c8545208f3d3dfbc6bb7c3e3b7e8c6f8e7485432e4f3b88da3031a6e20afa7c711eded32ddfb122896ac5d914e75848d5
+  languageName: node
+  linkType: hard
+
+"yargs-parser@npm:^21.1.1":
+  version: 21.1.1
+  resolution: "yargs-parser@npm:21.1.1"
+  checksum: ed2d96a616a9e3e1cc7d204c62ecc61f7aaab633dcbfab2c6df50f7f87b393993fe6640d017759fe112d0cb1e0119f2b4150a87305cc873fd90831c6a58ccf1c
   languageName: node
   linkType: hard
 
