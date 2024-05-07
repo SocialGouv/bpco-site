@@ -1,3 +1,10 @@
+## [1.8.5](https://github.com/SocialGouv/bpco-site/compare/v1.8.4...v1.8.5) (2024-05-07)
+
+
+### Bug Fixes
+
+* update home page disclaimer ([046d97e](https://github.com/SocialGouv/bpco-site/commit/046d97e15fbe6b0c675e0fe2d625373f4aedfbe2))
+
 ## [1.8.4](https://github.com/SocialGouv/bpco-site/compare/v1.8.3...v1.8.4) (2024-03-18)
 
 
