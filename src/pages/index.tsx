@@ -30,7 +30,7 @@ export default function Home() {
           title="Fin de service"
           colorVariant="orange-terre-battue"
         >
-          Le service BPCO&apos;Mieux n'est plus maintenu et ne sera plus
+          Le service BPCO&apos;Mieux n&apos;est plus maintenu et ne sera plus
           accessible sur les stores à partir du 13 mai 2024.
         </CallOut>
         <section className="fr-container" style={{ position: "relative" }}>
